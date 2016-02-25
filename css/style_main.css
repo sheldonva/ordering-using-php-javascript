@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {font-family:Arial, Helvetica, sans-serif !important;
+   		line-height:normal !important;
+		font-size:16px !important;
+		color:#000 !important;
+		margin-top:15px !important;
+	
+	}
+	
+
+p{
+	display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+	
+	}
+
+
+}
+
+.date_clearer {display:none;}
+.jdpicker_w .date_selector tr.selectable_week.hover td, .jdpicker_w .date_selector td.selectable_day.hover
+{color:#0F0 !important;}
+
+#menu {border: none;
+       background: none;
+	   font-size: 15px;
+ 
+}
+#example {z-index:999;}
+#dl-menu {z-index:99999;}
+
+
+@media print {
+    .print {display:none;}
+}
+
+@media (max-width:500px){
+	.responsive_navee {display:block;}
+	.navigation {display:none;}
+		}
+		
+
+@media (min-width:505px){
+	.responsive_navee {display:none;}
+	.navigation {display:block;}
+		}
